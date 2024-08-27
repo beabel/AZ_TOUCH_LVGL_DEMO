@@ -20,3 +20,8 @@ Verwendet wurde die Arduino IDE
 die im Repo hinterlegten Setup Dateien sind an folgenden Orten zu hinterlegen:
 - lv_conf.h     --> C:\Users\DEIN_USERNAME\Documents\Arduino\libraries
 - User_Setup.h  --> C:\Users\DEIN_USERNAME\Documents\Arduino\libraries\TFT_eSPI
+
+**LVGL Demos + Examples:**
+- kopiere die Ordner demos und examples 
+- aus dem Ordner C:\Users\DEIN_USERNAME\Documents\Arduino\libraries\lvgl
+- in diesen : C:\Users\GfARuP\Documents\Arduino\libraries\lvgl\src

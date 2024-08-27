@@ -13,7 +13,7 @@ Verwendet wurde die Arduino IDE
 **Bibliotheken:**
 - [XPT2046_Touchscreen by Paul Stoffregen Version 1.4.0](https://github.com/PaulStoffregen/XPT2046_Touchscreen)
 - [TFT_eSPI by Bodmer Version 2.5.43](https://github.com/Bodmer/TFT_eSPI)
-- [lvgl von kisvegabor Version 9.1.0](https://lvgl.io/)
+- [lvgl von kisvegabor Version 9.1.0](https://lvgl.io/)  **V9.1.0 --> wichtig!** 9.2 macht Probleme
 
 **Setup Dateien:**
 
@@ -25,6 +25,13 @@ die im Repo hinterlegten Setup Dateien sind an folgenden Orten zu hinterlegen:
 - kopiere die Ordner demos und examples 
 - aus dem Ordner C:\Users\DEIN_USERNAME\Documents\Arduino\libraries\lvgl
 - in diesen : C:\Users\DEIN_USERNAME\Documents\Arduino\libraries\lvgl\src
+
+**Light / Dark Theme**
+in der Datei lv_conf.h kann umgestellt werden:
+```
+    /*0: Light mode; 1: Dark mode*/
+    #define LV_THEME_DEFAULT_DARK 1
+```
 
 # Screenshots
 
